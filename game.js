@@ -16,11 +16,13 @@ $(document).keypress(function(){
 
 // click event listener for user clicked pattern
 $(".btn").click(function(){
-    var userChosenColor = $(this).attr("id");
-    userClickedPattern.push(userChosenColor);
-    playSound(userChosenColor);
-    animatePress(userChosenColor);
-    checkAnswer(userClickedPattern.length - 1);
+    if(started){
+        var userChosenColor = $(this).attr("id");
+        userClickedPattern.push(userChosenColor);   
+        playSound(userChosenColor);
+        animatePress(userChosenColor);
+        checkAnswer(userClickedPattern.length - 1);
+    }
 });
 
 // increases level adds additional color to the game pattern
