@@ -1,6 +1,7 @@
 # Javascript Simon
 
-Javascript version of the classic 1980's memory game Simon.
+Javascript version of the classic 1980's memory game Simon. 
+Play the game here! https://adamjeanlaurent.github.io/Simon-Game/
 
 <strong>Simon</strong> is an electronic memory game where the device creates a series of tones and lights and requires a user the repeat the sequence. If the user succeeds, the series becomes progressively longer and more complex. Once the user fails by repeating the sequence out of order, the game ends. 
 
